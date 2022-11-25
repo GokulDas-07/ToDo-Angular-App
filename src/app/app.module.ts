@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ToDoAddComponent } from './to-do-add/to-do-add.component';
 import { ToDoViewComponent } from './to-do-view/to-do-view.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ToDoAddComponent,
-    ToDoViewComponent
+    ToDoViewComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
